@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='i.png') }}">
+</head>
+<body>
+    <header>
+        <h1>ATM Service Point</h1>
+    </header>
+    <div class="container">
+        <img src="{{ url_for('static', filename='atm.png') }}" alt="ATM">
+        <ul>
+            <li><a href="/balance">Check Balance</a></li>
+            <li><a href="/deposit">Deposit Money</a></li>
+            <li><a href="/withdraw">Withdraw Money</a></li>
+            <li><a href="/transactions">Transaction History</a></li>
+        </ul>
+    </div>
+</body>
+</html>

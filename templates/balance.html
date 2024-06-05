@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Balance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='i.png') }}">
+</head>
+<body>
+    <header>
+        <h1>Your Balance</h1>
+    </header>
+    <div class="container">
+        <img src="{{ url_for('static', filename='atm.png') }}" alt="ATM">
+        <div>
+            <p>Your balance is: ₹{{ balance }}</p>
+            <a href="/">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

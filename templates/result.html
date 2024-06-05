@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='i.png') }}">
+</head>
+<body>
+    <header>
+        <h1>Result</h1>
+    </header>
+    <div class="container">
+        <img src="{{ url_for('static', filename='atm.png') }}" alt="ATM">
+        <div>
+            <div class="message">
+                <p>{{ message }}</p>
+            </div>
+            <a href="/">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
