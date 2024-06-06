@@ -1,4 +1,6 @@
-# ATM Service Point
+![Poster](https://github.com/C-Logesh-Perumal-29/ATM_Service_Point/assets/125385633/0ab0ecf8-0b3c-436a-a4f1-85af73254c1f)
+
+# ATM Service Point 
 
 ## Overview
 
